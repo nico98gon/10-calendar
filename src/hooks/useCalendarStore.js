@@ -27,7 +27,7 @@ export const useCalendarStore = () => {
 
     const startDeletingEvent = () => {
         // Todo: arrive to backend 
-        dispatch( onDeleteEvent );
+        dispatch( onDeleteEvent() );
     }
     
     return {
